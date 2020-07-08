@@ -7,17 +7,80 @@
 		<title>Karol Rzotki</title>
 		<link rel="stylesheet" href="style.css"/>
 		
-		<style> 
+		<style>
+		html,body
+		{
+			width:99%;
+			height:100%;
+		}
+		body
+		{
+			background:#303030;
+		}
+		.project
+		{
+			width:40%;
+			height:40%;
+			box-sizing:border-box;
+			float:left;
+			margin: 0% 5% ;
+		}
+		
+		img
+		{
+			width:100%;
+			border:solid #00000000 1px;
+		}
+		img:hover
+		{
+			border:solid white 1px;
+		}
+		.title
+		{
+			color:white;
+			font-style:italic;
+			text-align:center;
+			font-size:20px;
+		}
 		</style>
 		
 	</head>
 	
 	<body>
-		<a target="_blank" href="https://rzotki-chat.herokuapp.com">Chat</a><br>
-		<a target="_blank" href="https://rzotki-mpgame.herokuapp.com/">Multiplayer Game</a><br>
-		<a target="_blank" href="https://rzotki-neural-net-flappybird.herokuapp.com/">Neural Network Flappy Bird</a><br>
-		<a target="_blank" href="https://rzotki-neural-net-snake.herokuapp.com/">Neural Network Snake</a><br>
-		<a target="_blank" href="https://rzotki-simple-genetic.herokuapp.com/">Simple Genetic</a>
+		<div class="project" >
 		
+			<a target="_blank" href="https://rzotki-chat.herokuapp.com"> <img src ="chat.png" /> </a><br>
+			<p class = "title">Chat</p>
+		</div>
+		
+		<div class="project" >
+		
+			<a target="_blank" href="https://rzotki-mpgame.herokuapp.com/"><img src ="mp_game.png" /></a><br>
+			<p class = "title">Multiplayer Game</p>
+		</div>
+		
+		<div class="project" >
+		
+			<a target="_blank" href="https://rzotki-neural-net-flappybird.herokuapp.com/"><img src ="flappy_bird.png" /></a><br>
+			<p class = "title">Neural Network Flappy Bird</p>
+		</div>
+	
+		<div class="project" >
+		
+			<a target="_blank" href="https://rzotki-neural-net-snake.herokuapp.com/"><img src ="snake.png" /></a><br>
+			<p class = "title">Neural Network Snake</p>
+		</div>
+		
+		<div class="project" >
+		
+			<a target="_blank" href="https://rzotki-simple-genetic.herokuapp.com/"><img src ="genetic.png" /></a>	
+			<p class = "title">Genetic Algorithm Sample </p>
+		</div>
+	
+		
+		
+
+
+	
 	</body>
 </html>
