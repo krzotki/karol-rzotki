@@ -43,7 +43,7 @@ img:hover
 	flex-direction:column;
 	align-items:center;
 }
-#projects
+.projects
 {
 	display:flex;
 	flex-wrap:wrap;
