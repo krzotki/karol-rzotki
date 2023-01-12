@@ -1,99 +1,116 @@
 <!DOCTYPE html>
 
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="author" content="Karol Rzotki" />
-    <title>Karol Rzotki</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./style.css" />
-  </head>
 
-  <body>
-    <main id="main">
-      <h1 id="title">Karol Rzotki</h1>
-      <p id="email">krzotki@gmail.com</p>
+<head>
+  <meta charset="utf-8" />
+  <meta name="author" content="Karol Rzotki" />
+  <title>Karol Rzotki</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
 
-      <h3>Current projects (2022 - 2023)</h3>
-
-      <section class="projects new">
-        <figure class="project">
-          <a target="_blank" href="https://poker-planning.herokuapp.com">
-            <img src="poker.png" />
-          </a>
-          <figcaption class="title">Poker Planning App</figcaption>
-        </figure>
-
-      </section>
-
-	  <h3>Old projects (2020 - 2021)</h3>
-
-      <section class="projects old">
-        <figure class="project">
-          <a target="_blank" href="https://path-finder.herokuapp.com">
-            <img src="djikstra.png" />
-          </a>
-          <figcaption class="title">React.js Pathfinder</figcaption>
-        </figure>
-
-        <figure class="project">
-          <img src="soundify.png" />
-          <figcaption class="title">
-            Soundify - Online Music Player (C# Razor Pages)
-          </figcaption>
-        </figure>
-      </section>
-
-      <h3>Older projects (2018 - 2020)</h3>
-
-      <section class="projects older">
-        <figure class="project">
-          <a target="_blank" href="https://rzotki-chat.herokuapp.com">
-            <img src="chat.png" />
-          </a>
-          <figcaption class="title">Node.js Chat (status down)</figcaption>
-        </figure>
-
-        <figure class="project">
-          <a
-            target="_blank"
-            href="https://rzotki-neural-net-flappybird.herokuapp.com/"
-            ><img src="flappy_bird.png"
-          /></a>
-          <figcaption class="title">Neural Network Flappy Bird</figcaption>
-        </figure>
-
-        <figure class="project">
-          <a
-            target="_blank"
-            href="https://rzotki-neural-net-snake.herokuapp.com/"
-            ><img src="snake.png"
-          /></a>
-          <figcaption class="title">Neural Network Snake</figcaption>
-        </figure>
-
-        <figure class="project">
-          <a target="_blank" href="https://rzotki-simple-genetic.herokuapp.com/"
-            ><img src="genetic.png"
-          /></a>
-          <figcaption class="title">Genetic Algorithm Sample</figcaption>
-        </figure>
-
-        <figure class="project">
-          <a target="_blank" href="https://multiplayer-game-uch.herokuapp.com"
-            ><img src="mp_game.png"
-          /></a>
-          <figcaption class="title">Node.js Multiplayer Game</figcaption>
-        </figure>
-      </section>
-    </main>
-    <footer id="footer">
-      <a href="https://github.com/krzotki" target="_blank"
-        ><img id="gitlogo" src="git.svg" alt="GitHub" />
+<body>
+  <main id="main">
+    <h1 id="title">Karol Rzotki</h1>
+    <div class="links">
+      <p id="email">Email: krzotki@gmail.com</p>
+      <a class="link" href="https://github.com/krzotki" target="_blank">
+        <p>GitHub </p>
+        <img id="gitlogo" class="logo-small" src="git.svg" alt="GitHub" />
       </a>
-    </footer>
-  </body>
+      <a class="link" href="https://www.linkedin.com/in/karol-rzotki-42aa51235/" target="_blank">
+        <p>LinkedIn </p>
+        <img id="linkedinlogo" class="logo-small" src="linkedin.png" alt="LinkedIn" />
+      </a>
+    </div>
+    <h3>Current projects (2022 - 2023)</h3>
+
+    <section class="projects new">
+      <figure class="project">
+        <a target="_blank" href="http://chatbot.krzotki.com/">
+          <img src="chatbot.png" />
+        </a>
+        <figcaption class="title">
+          Chatbot - chat with GPT3 with math and code integration
+          <small>Technologies: Next.js, ElasticBeanstalk, Mathpix, AWS S3</small>
+        </figcaption>
+      </figure>
+
+      <figure class="project">
+        <a target="_blank" href="https://poker-planning.herokuapp.com">
+          <img src="poker.png" />
+        </a>
+        <figcaption class="title">
+          Poker Planning App - used on sprint plannings to vote for story
+          points
+          <small>Technologies: React.js, WebSockets</small>
+        </figcaption>
+      </figure>
+
+      <figure class="project">
+        <a target="_blank" href="https://coin-view.krzotki.com/pl/list">
+          <img src="coin-view.png" />
+        </a>
+        <figcaption class="title">
+          CoinView - cryptocurrency listing
+          <small>Technologies: Next.js, RDS MySQL, ElasticBeanstalk, Lambda</small>
+        </figcaption>
+      </figure>
+    </section>
+
+    <h3>Old projects (2020 - 2021)</h3>
+
+    <section class="projects old">
+      <figure class="project">
+        <a target="_blank" href="https://path-finder.herokuapp.com">
+          <img src="djikstra.png" />
+        </a>
+        <figcaption class="title">React.js Pathfinder</figcaption>
+      </figure>
+
+      <figure class="project">
+        <img src="soundify.png" />
+        <figcaption class="title">
+          Soundify - Online Music Player (C# Razor Pages)
+        </figcaption>
+      </figure>
+    </section>
+
+    <h3>Older projects (2018 - 2020)</h3>
+
+    <section class="projects older">
+      <figure class="project">
+        <img src="chat.png" />
+        <figcaption class="title">Node.js Chat</figcaption>
+      </figure>
+
+      <figure class="project">
+        <a target="_blank" href="https://neural-net-flappybird.herokuapp.com/""
+            ><img src=" flappy_bird.png" /></a>
+        <figcaption class="title">Neural Network Flappy Bird</figcaption>
+      </figure>
+
+      <figure class="project">
+        <a target="_blank" href="https://neural-net-snake.herokuapp.com/"><img src="snake.png" /></a>
+        <figcaption class="title">Neural Network Snake</figcaption>
+      </figure>
+
+      <figure class="project">
+        <a target="_blank" href="https://genetic-js.herokuapp.com/"><img src="genetic.png" /></a>
+        <figcaption class="title">Genetic Algorithm Sample</figcaption>
+      </figure>
+
+      <figure class="project">
+        <a target="_blank" href="https://multiplayer-game-uch.herokuapp.com"><img src="mp_game.png" /></a>
+        <figcaption class="title">Node.js Multiplayer Game</figcaption>
+      </figure>
+    </section>
+  </main>
+  <footer id="footer">
+    <a href="https://github.com/krzotki" target="_blank"><img id="gitlogo" src="git.svg" alt="GitHub" />
+    </a>
+  </footer>
+</body>
+
 </html>
